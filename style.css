@@ -120,11 +120,26 @@ body {
 
 /**/
 
-.band.brevon-good {
+.band-position-0 {
   height: 100vh;
   min-height: 800px;
 }
 .band-position-0 .lead-body {
   margin-top: 400px;
   margin-top: 25vh;
+}
+
+@media (max-width: 767px) {
+  .band .img-responsive {
+    max-height: 250px!important;
+    height: 250px;
+  }
+}
+
+audio {
+  margin: 0 auto;
+}
+
+.band h2 {
+  margin-bottom: 20px;
 }
