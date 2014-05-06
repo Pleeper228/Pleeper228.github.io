@@ -114,19 +114,16 @@ body {
   background-position: center center;
   background-size: cover;
   padding: 40px 0;
-
 }
 
 
 /**/
 
 .band-position-0 {
-  height: 100vh;
-  min-height: 800px;
+  padding: 0;
 }
 .band-position-0 .lead-body {
-  margin-top: 400px;
-  margin-top: 25vh;
+
 }
 
 @media (max-width: 767px) {
