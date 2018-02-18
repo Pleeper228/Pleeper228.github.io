@@ -1,11 +1,9 @@
 
-$(window).resize(centerLead);
-$(function() {
-  centerLead();
+// var padding = $(document).find(".band-position-0").height();
+// var padding2 = $(document).find(".band .container").height();
+// var offset = padding2 - padding;
+// $(document).find(".footer").css("margin-top", offset);
+
+$('.navbar-header').on('click', 'button', function() {
+  $(document).find('.navbar-right').slideToggle();
 });
-function centerLead() {
-  var bodyPadding = 70;
-  $(".band-position-0").first().height(window.innerHeight - bodyPadding);
-  var offset = $(".band-position-0 .band-head").offset().top;
-  $(".lead-body").first().css("margin-top", window.innerHeight / 2 - offset - bodyPadding);
-}
