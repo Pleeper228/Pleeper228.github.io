@@ -10,6 +10,7 @@ class NavBar extends React.Component {
       showMobileMenu: false
     }
     this.toggleMobileMenu = this.toggleMobileMenu.bind(this)
+    this.closeMobileMenu = this.closeMobileMenu.bind(this)
   }
 
   buildLink(pathName, linkText) {
