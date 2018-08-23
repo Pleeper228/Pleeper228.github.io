@@ -1,0 +1,73 @@
+.capstone-section {
+  background-color: #f2f2f2;
+}
+.inner-capstone {
+  width: 75%;
+}
+.capstone-content {
+  display: flex;
+}
+.capstone-title {
+  text-align: center;
+  font-size: 2.6em;
+  padding-bottom: 60px;
+}
+.capstone-image {
+  width: 40%;
+  height: 40%;
+  border-radius: 25px;
+}
+.capstone-subtitle {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+.capstone-text {
+  line-height: 35px;
+  margin-top: 20px;
+  font-size: 1.3em;
+  color: #474747;
+}
+.capstone-description-container {
+  margin-left: 60px;
+}
+.capstone-list-container {
+  margin-top: 40px;
+  /* margin-left: 40px; */
+}
+.capstone-list-item {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.capstone-list-text {
+  margin-left: 10px;
+}
+.svg {
+  width: 2em;
+}
+.capstone-button {
+  margin-top: 40px;
+}
+@media (max-width: 767px) {
+  .capstone-content {
+    flex-direction: column;
+  }
+  .capstone-image {
+    width: 100%;
+  }
+  .h2 {
+    font-size: 1.8em;
+    padding-bottom: 45px;
+  }
+  .capstone-subtitle {
+    font-size: 1.5em;
+    margin-top: 40px;
+  }
+  .capstone-description-container {
+    margin-left: 0px;
+  }
+  .capstone-text {
+    line-height: 30px;
+    font-size: 1em;
+  }
+}

@@ -1,0 +1,10 @@
+.about-section {
+  font-size: 1.3em;
+  line-height: 35px;
+}
+@media (max-width: 767px) {
+  .about-section {
+    font-size: 1em;
+    line-height: 30px;
+  }
+}

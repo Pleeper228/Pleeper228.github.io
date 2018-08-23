@@ -1,0 +1,144 @@
+.inner-project {
+  border-top: 2px solid #b9b9b9;
+}
+.project-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-container-left {
+  margin-right: 60px;
+}
+.image-container-right {
+  margin-left: 60px;
+}
+.web-container {
+  width: 50%;
+}
+.desktop-header {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  padding-left: 10px;
+  background-color: #ebebeb;
+  border-radius: 15px 15px 0px 0px;
+  align-items: center;
+}
+.desktop-header span {
+  display: block;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.desktop-header span:nth-child(1) {
+  background-color: #ff564f;
+}
+.desktop-header span:nth-child(2) {
+  background-color: #ffb429;
+}
+.desktop-header span:nth-child(3) {
+  background-color: #24c339;
+}
+.desktop-stand {
+  width: 25%;
+  height: 60px;
+  background-color: #b9b9b9;
+  top: -3px;
+  margin: 0 auto;
+}
+.desktop-base {
+  width: 40%;
+  height: 10px;
+  background-color: #ebebeb;
+  top: -3px;
+  margin: 0 auto;
+}
+.frame {
+  border-radius: 25px;
+}
+.desktop-frame {
+  border: 5px solid #ebebeb;
+  border-radius: 0px 0px 15px 15px;
+  width: 100%;
+}
+.project-description-container {
+  width: 50%;
+}
+.project-title {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+.project-text {
+  line-height: 35px;
+  margin-top: 20px;
+  font-size: 1.3em;
+  color: #474747;
+}
+.project-list-container {
+  margin-top: 40px;
+}
+.project-list-item {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.project-list-text {
+  margin-left: 10px;
+}
+.svg {
+  width: 2em;
+}
+.project-button {
+  margin-top: 40px;
+  margin-right: 20px;
+}
+@media (max-width: 767px) {
+  .project-content {
+    flex-direction: column;
+  }
+  .image-container-left {
+    margin-right: 0px;
+  }
+  .image-container-right {
+    margin-left: 0px;
+  }
+  .web-container {
+    width: 100%;
+  }
+  .project-title {
+    font-size: 1.5em;
+    margin-top: 40px;
+  }
+  .project-description-container {
+    order: 2;
+    margin-left: 0px;
+    width: 92%;
+  }
+  .project-description-container button:nth-child(1n) {
+    width: 100%;
+    padding: 16px 16px;
+    margin-top: 10px;
+  }
+  .project-text {
+    line-height: 30px;
+    font-size: 1em;
+  }
+  .desktop-stand {
+    width: 0;
+    height: 0;
+    background-color: inherit;
+    top: 0;
+    margin: 0;
+  }
+  .desktop-base {
+    width: 0;
+    height: 0;
+    background-color: inherit;
+    top: 0;
+    margin: 0;
+  }
+  .project-list-container {
+    margin: 40px 0;
+  }
+}

@@ -1,0 +1,32 @@
+.my-button {
+  font-size: 1.3em;
+  padding: 20px 32px;
+  border: solid 3px #FF887B;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  transition: .2s ease-out;
+  text-align: center;
+}
+.my-button:hover {
+  /* padding: 22px 34px; */
+}
+.red {
+  background-color: #FF887B;
+  color: #fff;
+  transition: .2s ease-out;
+}
+.red:hover {
+  background-color: #fff;
+  color: #FF887B;
+}
+.white {
+  background-color: #fff;
+  color: #FF887B;
+  transition: .2s ease-out;
+}
+.white:hover {
+  background-color: #FF887B;
+  color: #fff;
+}
