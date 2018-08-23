@@ -6,7 +6,7 @@ import Projects from './components/Projects/'
 import About from './components/About/'
 import Resume from './components/Resume/'
 import Contact from './components/Contact/'
-import {BrowserRouter as Router, Route} from 'react-router-dom'
+import {HashRouter as Router, Route} from 'react-router-dom'
 import ScrollToTop from './ScrollToTop'
 import './App.css';
 
