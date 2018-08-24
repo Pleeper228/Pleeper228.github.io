@@ -49,10 +49,31 @@ table {
 
 /* Above Reset */
 
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+* {
+	box-sizing: border-box;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 body {
   margin: 0;
   padding: 0;
 	font-family: 'Montserrat', sans-serif;
+	/* font-family: 'Press Start 2P', cursive; */
+	color: #000;
 }
 a {
 	text-decoration: none;

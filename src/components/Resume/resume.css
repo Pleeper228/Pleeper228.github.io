@@ -6,8 +6,8 @@
     opacity: 1;
   }
 }
-.home {
-  animation: .4s ease-out 0s 1 fadeIn;
+.resume {
+  animation: .8s ease-out 0s 1 fadeIn;
 }
 .resume-container {
   display: flex;
@@ -15,6 +15,7 @@
   align-items: center;
   font-size: 1.3em;
   line-height: 35px;
+  animation: .4s ease-out 0s 1 slideInFromBottom;
 }
 .resume-header {
   font-size: 1.4em;

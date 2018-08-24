@@ -23,7 +23,28 @@ class PreviewAbout extends React.Component {
               <Link to='/resume'><MyButton title='Check Out My Resumé' theme='white'/></Link>
             </div>
           </article>
-          <img src='./profile-2.JPG' alt='' className='profile-image'/>
+          <div className='profile-image-container'>
+            <div className='game-body'>
+              <div className='game-screen'>
+                <img src='./profile-2.JPG' alt='' className='profile-image'/>
+                <div className='game-logo'><span>nintendo </span>GOOD BOY</div>
+              </div>
+              <div className='game-input'>
+                <div className='game-dpad'>
+                  <div className='game-up'></div>
+                  <div className='game-right'></div>
+                </div>
+                <div className='game-actions'>
+                  <div className='game-a'></div>
+                  <div className='game-a'></div>
+                </div>
+              </div>
+              <div className='game-buttons'>
+                <div className='game-start'></div>
+                <div className='game-start'></div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     )

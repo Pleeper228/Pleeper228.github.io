@@ -1,39 +1,138 @@
-@keyframes slideInFromBottom {
-  0% {
-    transform: translateY(30px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
 .preview-about {
   animation: .4s ease-out 0s 1 slideInFromBottom;
+  background-color: #66CCFF;
+  color: #003399;
 }
-.profile-image {
-  width: 40%;
-  height: 40%;
-  border-radius: 15px;
+.profile-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
   margin-left: 60px;
 }
+.game-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #f0f0f0;
+  width: 325px;
+  height: 550px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 30px 30px 70px 30px;
+  box-shadow: 10px 10px 5px #666;
+  /* border: 10px solid #000; */
+}
+.game-screen {
+  display: flex;
+  flex-direction: column;
+}
+.profile-image {
+  height: 275px;
+  width: 100%;
+  border-left: 30px solid #828282;
+  border-right: 30px solid #828282;
+  border-top: 20px solid #828282;
+  border-bottom: 20px solid #828282;
+  border-radius: 20px 20px 40px 20px;
+}
+.game-logo {
+  font-family: 'Press Start 2P', cursive;
+  margin-top: 15px;
+  font-size: .7em;
+  color: #000;
+}
+.game-logo span {
+  font-size: .4em;
+}
+.game-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10px;
+}
+.game-up {
+  left: 25px;
+  position: relative;
+  width: 25px;
+  height: 75px;
+  background-color: #3b3c3b;
+}
+.game-right {
+  position: relative;
+  bottom: 50px;
+  width: 75px;
+  height: 25px;
+  background-color: #3b3c3b;
+}
+.game-actions {
+  display: flex;
+  background-color: #e2e3e3;
+  border-radius: 30%;
+  -webkit-transform: rotate(-30deg) translate(-8px, -8px);
+  transform: rotate(-30deg) translate(-8px, -8px);
+}
+.game-a {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FF887B;
+  margin: 10px;
+}
+.game-b {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #FF887B;
+  margin-left: 20px;
+}
+.game-buttons {
+  display: flex;
+  justify-content: center;
+}
+.game-start {
+  width: 10px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #000;
+  margin: 0 20px;
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+/* .game-select {
+  width: 10px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #000;
+} */
 .profile-title {
-  font-size: 3.8em;
+  color: black;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-size: 2.7em;
   font-weight: bold;
+  font-family: 'Press Start 2P', cursive;
 }
 .profile-subtitle {
-  color: #c6c6c6;
+  /* color: #c6c6c6; */
+  color: #f0f0f0;
   font-size: 2.3em;
   margin-top: 30px;
+  font-weight: bold;
 }
 .profile-text {
   line-height: 35px;
   margin-top: 20px;
   font-size: 1.3em;
+  font-weight: bold;
 }
 .inner-about {
   display: flex;
+  /* border-top: 2px solid #b9b9b9; */
 }
 .profile-description-container {
-
+  width: 70%;
 }
 .profile-buttons {
   display: flex;
@@ -46,19 +145,31 @@
   .inner-about {
     flex-direction: column;
   }
-  .profile-image {
+  .tv {
     width: 100%;
     margin: 0 auto;
   }
   .profile-description-container {
+    width: 100%;
     order: 2;
   }
+  .profile-image-container {
+    width: auto;
+    margin: 0;
+  }
+  .game-body {
+    box-shadow: 5px 5px 5px #666;
+  }
   .profile-title {
-    font-size: 2.2em;
-    margin-top: 20px;
+    font-size: 1.2em;
+    margin-top: 40px;
+    color: black;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 0;
+    -webkit-text-stroke-color: black;
   }
   .profile-subtitle {
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin-top: 20px;
   }
   .profile-text {

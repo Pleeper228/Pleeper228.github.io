@@ -37,7 +37,7 @@ class NavBar extends React.Component {
 
   render() {
     return (
-      <header className='navbar wrapper'>
+      <header className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='nav-logo'>
             <h2 className='nav-logo-text'>bg</h2>

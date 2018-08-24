@@ -1,5 +1,6 @@
 .inner-project {
   border-top: 2px solid #b9b9b9;
+  animation: .4s ease-out 0s 1 slideInFromBottom;
 }
 .project-content {
   display: flex;
@@ -68,6 +69,7 @@
 .project-title {
   font-size: 1.8em;
   font-weight: bold;
+  font-family: 'Press Start 2P', cursive;
 }
 .project-text {
   line-height: 35px;
@@ -107,7 +109,7 @@
     width: 100%;
   }
   .project-title {
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-top: 40px;
   }
   .project-description-container {
