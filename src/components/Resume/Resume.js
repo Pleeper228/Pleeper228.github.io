@@ -71,10 +71,6 @@ class Resume extends React.Component {
                   The University of Colorado Denver | Anschutz Medical Campus is one of the nation’s top public urban research universities. Their impact—on individuals, on Colorado and on the world—is profound, whether they're conducting game-changing research or helping students learn with purpose.
                 </ExperienceSection>
                 <ExperienceSection title='University of Colorado Boulder' subtitle="Sep 2010 - May 2011" imageSrc='./boulder.jpg'>
-                  <ul>
-                    <li>Coordinated events, running audio, lighting, and production including two seasons on the production team at the Denver Botanic Gardens</li>
-                    <li>Assisted on 30+ recordings, some of which are featured on the Moth Story Slam podcast sponsored by NPR</li>
-                  </ul>
                 </ExperienceSection>
               </div>
 

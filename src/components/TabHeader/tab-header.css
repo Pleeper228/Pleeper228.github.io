@@ -10,7 +10,7 @@
   font-size: 3em;
   font-weight: bold;
   color: black;
-  -webkit-text-fill-color: white;
+  -webkit-text-fill-color: #fff;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 }
