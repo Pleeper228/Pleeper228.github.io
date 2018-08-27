@@ -10,7 +10,7 @@ class Projects extends React.Component {
     return (
       <div className='projects'>
         <TabHeader title='Projects' subtitle='Some of my recent works'/>
-        <ProjectSection title='Pay Me Connor'  imageSrc='https://media.giphy.com/media/XoywQKznL9QaQlnaY8/giphy.gif' direction='left' repoLink='https://github.com/Pleeper228/pay-me-connor-client'>
+        <ProjectSection title='Pay Me Connor'  imageSrc='https://media.giphy.com/media/yvXfCrSYDs0wanhe9i/giphy.gif' direction='left' repoLink='https://github.com/Pleeper228/pay-me-connor-client' mobile={true}>
           Pay Me Connor is a mobile app that allows users to track bills and payments between roommates. As a user you can add as many roommates and bills as you need. You can add payment records, and you can see a log of all payments made as well as a running total of all bill balances.
           <ul className='project-list-container'>
             <li className='project-list-item'>

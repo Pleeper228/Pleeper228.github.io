@@ -15,6 +15,9 @@ class ProjectSection extends React.Component {
     if (this.props.web) {
       imageClass = 'desktop-frame'
       imageContainerClass += ' web-container'
+    } else if (this.props.mobile) {
+      imageClass = 'iphone-frame'
+      imageContainerClass += ' iphone-container'
     }
 
     return (
@@ -26,7 +29,13 @@ class ProjectSection extends React.Component {
             <span></span>
           </div>
           : null}
+        {this.props.mobile ? <div className='iphone-header'></div> : null}
         <img src={this.props.imageSrc} alt='' className={imageClass}/>
+        {this.props.mobile ?
+          <div className='iphone-footer'>
+            <span></span>
+          </div>
+          : null}
         {this.props.web ? <div className='desktop-stand'></div> : null}
         {this.props.web ? <div className='desktop-base'></div> : null}
       </div>

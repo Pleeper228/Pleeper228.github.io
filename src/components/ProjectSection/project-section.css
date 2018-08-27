@@ -16,6 +16,9 @@
 .web-container {
   width: 50%;
 }
+.iphone-container {
+
+}
 .desktop-header {
   display: flex;
   width: 100%;
@@ -24,6 +27,13 @@
   background-color: #ebebeb;
   border-radius: 15px 15px 0px 0px;
   align-items: center;
+}
+.iphone-header {
+  height: 60px;
+  width: 100%;
+  background-color: #282a29;
+  border-radius: 25px 25px 0px 0px;
+
 }
 .desktop-header span {
   display: block;
@@ -55,6 +65,24 @@
   top: -3px;
   margin: 0 auto;
 }
+.iphone-footer {
+  position: relative;
+  bottom: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 100%;
+  background-color: #282a29;
+  border-radius: 0px 0px 25px 25px;
+}
+.iphone-footer span {
+  display: block;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 3px solid #666;
+}
 .frame {
   border-radius: 25px;
 }
@@ -62,6 +90,10 @@
   border: 5px solid #ebebeb;
   border-radius: 0px 0px 15px 15px;
   width: 100%;
+}
+.iphone-frame {
+  border-left: 20px solid #282a29;
+  border-right: 20px solid #282a29;
 }
 .project-description-container {
   width: 50%;
