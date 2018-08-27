@@ -17,7 +17,8 @@
   width: 50%;
 }
 .iphone-container {
-
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px #666;
 }
 .desktop-header {
   display: flex;
@@ -33,7 +34,6 @@
   width: 100%;
   background-color: #282a29;
   border-radius: 25px 25px 0px 0px;
-
 }
 .desktop-header span {
   display: block;
@@ -67,7 +67,7 @@
 }
 .iphone-footer {
   position: relative;
-  bottom: 3px;
+  /* bottom: 3px; */
   display: flex;
   align-items: center;
   justify-content: center;

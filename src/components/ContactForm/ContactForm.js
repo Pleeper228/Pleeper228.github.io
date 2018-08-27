@@ -3,6 +3,10 @@ import MyButton from '../MyButton'
 import './contact-form.css'
 
 class ContactForm extends React.Component {
+  click(event) {
+    event.preventDefault()
+  }
+
   render() {
     return (
       <form className='contact-form wrapper inner-section'>
@@ -29,7 +33,7 @@ class ContactForm extends React.Component {
             <textarea className='text-field form-field' required disabled/>
           </div>
         </div>
-        <MyButton title='Submit' theme='red' className='submit-form'/>
+        <MyButton title='Submit' theme='red' className='submit-form' onClick={this.click}/>
       </form>
     )
   }

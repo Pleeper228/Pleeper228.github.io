@@ -32,6 +32,7 @@
   background-color: #66CCFF;
   color: #fff;
   height: 100%;
+  border: 5px solid #000;
 }
 .resume-section {
   padding-top: 80px;

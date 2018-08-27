@@ -7,6 +7,27 @@ class PreviewAbout extends React.Component {
   render() {
     return (
       <section className='preview-about'>
+        <div className='cloud-1'>
+          <div className='fluff-1'></div>
+          <div className='fluff-2'></div>
+          <div className='fluff-3'></div>
+          <div className='fluff-4'></div>
+          <div className='fluff-5'></div>
+        </div>
+        <div className='cloud-2'>
+          <div className='fluff-1'></div>
+          <div className='fluff-2'></div>
+          <div className='fluff-3'></div>
+          <div className='fluff-4'></div>
+          <div className='fluff-5'></div>
+        </div>
+        <div className='cloud-3'>
+          <div className='fluff-1'></div>
+          <div className='fluff-2'></div>
+          <div className='fluff-3'></div>
+          <div className='fluff-4'></div>
+          <div className='fluff-5'></div>
+        </div>
         <div className='inner-section inner-about wrapper'>
           <article className='profile-description-container'>
             <h1 className='profile-title'>My name is Brevon</h1>
