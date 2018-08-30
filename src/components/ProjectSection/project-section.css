@@ -66,8 +66,7 @@
   margin: 0 auto;
 }
 .iphone-footer {
-  position: relative;
-  /* bottom: 3px; */
+  margin-top: -3px;
   display: flex;
   align-items: center;
   justify-content: center;
