@@ -15,7 +15,7 @@
 }
 .cloud-1 {
   position: absolute;
-  top: 130px;
+  top: 30px;
   animation: 70s linear 0s infinite leftToRight;
   display: flex;
   align-items: flex-end;
@@ -24,7 +24,7 @@
 }
 .cloud-2 {
   position: absolute;
-  top: 430px;
+  top: 330px;
   animation: 40s linear 0s infinite leftToRight;
   display: flex;
   align-items: flex-end;
@@ -33,7 +33,7 @@
 }
 .cloud-3 {
   position: absolute;
-  top: 580px;
+  top: 480px;
   animation: 50s linear 0s infinite leftToRight;
   display: flex;
   align-items: flex-end;
@@ -240,6 +240,12 @@
   margin-right: 20px;
 }
 @media (max-width: 767px) {
+  .cloud-1 {
+    top: 1050px;
+  }
+  .cloud-2 {
+    top: 750px;
+  }
   .inner-about {
     flex-direction: column;
   }
